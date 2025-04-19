@@ -5,5 +5,30 @@
         "src": "**",
         "use": "@vercel/static"
       }
+    ],
+    "routes": [
+      {
+        "src": "/",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/about",
+        "dest": "/about.html"
+      },
+      {
+        "src": "/contacts",
+        "dest": "/contacts.html"
+      },
+      {
+        "src": "/top-crm",
+        "dest": "/top-crm.html"
+      },
+      {
+        "handle": "filesystem"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      }
     ]
   }
