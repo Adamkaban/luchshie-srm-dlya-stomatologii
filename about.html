@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="О проекте СРМ для стоматологии. Наша миссия и команда экспертов.">
+    <meta name="keywords" content="О проекте СРМ, команда экспертов, миссия проекта">
+    <meta property="og:title" content="О проекте СРМ для стоматологии">
+    <meta property="og:description" content="Узнайте о нашей миссии и команде экспертов">
+    <meta property="og:type" content="website">
+    <title>О проекте СРМ для стоматологии</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#3B82F6',
+                        secondary: '#10B981',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Header (same as index.html) -->
+    <header class="sticky top-0 bg-white shadow-sm z-50">
+        <nav class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <img src="/img/logo.svg" alt="Логотип СРМ для стоматологии" class="h-8 w-auto">
+                <span class="text-lg font-semibold text-gray-800">Ваш эксперт в выборе СРМ для стоматологии</span>
+            </div>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="/" class="text-gray-600 hover:text-primary font-medium">Главная</a>
+                <a href="/top-crm" class="text-gray-600 hover:text-primary font-medium">Топ СРМ</a>
+                <a href="/about" class="text-primary font-medium">О проекте</a>
+                <a href="/contacts" class="text-gray-600 hover:text-primary font-medium">Контакты</a>
+            </div>
+            <button class="md:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+        <h1 class="text-4xl font-bold text-center text-gray-900 mb-12">О проекте</h1>
+        
+        <!-- Mission Section -->
+        <section class="mb-16">
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <h2 class="text-2xl font-bold mb-6">Наша миссия</h2>
+                <p class="text-gray-600 mb-4">
+                    Мы помогаем стоматологическим клиникам выбрать оптимальную СРМ систему, 
+                    которая повысит эффективность работы и увеличит прибыль.
+                </p>
+                <p class="text-gray-600">
+                    Наш проект объединяет экспертов в области стоматологии и IT-технологий, 
+                    чтобы предоставить вам объективную информацию и профессиональные рекомендации.
+                </p>
+            </div>
+        </section>
+
+        <!-- Experts Section -->
+        <section class="py-16 bg-white dark:bg-gray-800">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">Наши эксперты</h2>
+                <div class="max-w-2xl mx-auto">
+                    <div class="flex flex-col md:flex-row items-center gap-8">
+                        <div class="w-48 h-48 rounded-full overflow-hidden">
+                            <img src="img/Екатерина Шаленкова - эксперт срм.webp" alt="Екатерина Шаленкова" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold mb-2">Екатерина Шаленкова</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-4">Ведущий эксперт по CRM-системам для стоматологии</p>
+                            <div class="prose dark:prose-invert">
+                                <p>Специалист с 10-летним опытом внедрения CRM-систем в стоматологических клиниках. Автор методики "Эффективное управление стоматологической практикой".</p>
+                                <p>Провела более 200 успешных внедрений CRM в клиниках различного масштаба. Регулярно выступает на отраслевых конференциях и ведет образовательные программы для руководителей стоматологических клиник.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Values Section -->
+        <section>
+            <h2 class="text-2xl font-bold text-center mb-12">Наши ценности</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <img src="/img/icons/transparency.svg" alt="Прозрачность" class="w-6 h-6">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Прозрачность</h3>
+                    <p class="text-gray-600">Мы предоставляем объективную информацию без скрытых комиссий</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                        <img src="/img/icons/expertise.svg" alt="Экспертность" class="w-6 h-6">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Экспертность</h3>
+                    <p class="text-gray-600">Наши рекомендации основаны на реальном опыте и анализе</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+                        <img src="/img/icons/support.svg" alt="Поддержка" class="w-6 h-6">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Поддержка</h3>
+                    <p class="text-gray-600">Мы всегда готовы помочь вам с выбором и внедрением СРМ</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Популярные CRM</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/top-crm.html#БИТ.Стоматология" class="text-gray-400 hover:text-white">БИТ.Стоматология</a></li>
+                        <li><a href="/top-crm.html#DentalPRO" class="text-gray-400 hover:text-white">DentalPRO</a></li>
+                        <li><a href="/top-crm.html#IDENT" class="text-gray-400 hover:text-white">IDENT</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Категории</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/top-crm.html?tag=Автоматизация" class="text-gray-400 hover:text-white">Автоматизация</a></li>
+                        <li><a href="/top-crm.html?tag=Аналитика" class="text-gray-400 hover:text-white">Аналитика</a></li>
+                        <li><a href="/top-crm.html?tag=Маркетинг" class="text-gray-400 hover:text-white">Маркетинг</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Информация</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/about.html" class="text-gray-400 hover:text-white">О проекте</a></li>
+                        <li><a href="/Policy/Policy.txt" class="text-gray-400 hover:text-white">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
+                <p>© 2024 Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('button.md\\:hidden').addEventListener('click', () => {
+            const nav = document.querySelector('.hidden.md\\:flex');
+            nav.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html> 
