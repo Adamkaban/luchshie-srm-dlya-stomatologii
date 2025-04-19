@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /top-crm.html
+Allow: /about.html
+Allow: /contacts.html
+Allow: /privacy-policy.html
+
+Sitemap: https://luchshie-srm-dlya-stomatologii.vercel.app/sitemap.xml
